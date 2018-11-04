@@ -512,7 +512,7 @@ function hdQue_post_class_meta_box($object, $box)
 	<table width="100%" cellspacing="0" cellpadding="0" id="hdQuestionnaire">
 		<tr>
 			<td valign="top">1</td>
-			<td valign="top">
+			<td valign="top" style="position: relative;">
 				<input class="widefat" type="text" required name="hdQue-post-class1" id="hdQue-post-class1"
 				       value="<?php echo esc_attr(get_post_meta($object->ID, 'hdQue_post_class1', true)); ?>"
 				       size="30"/>
@@ -527,7 +527,7 @@ function hdQue_post_class_meta_box($object, $box)
 		</tr>
 		<tr>
 			<td valign="top">2</td>
-			<td valign="top">
+			<td valign="top" style="position: relative;">
 				<input class="widefat" type="text" required name="hdQue-post-class3" id="hdQue-post-class3"
 				       value="<?php echo esc_attr(get_post_meta($object->ID, 'hdQue_post_class3', true)); ?>"
 				       size="30"/>
@@ -540,7 +540,7 @@ function hdQue_post_class_meta_box($object, $box)
 		</tr>
 		<tr>
 			<td valign="top">3</td>
-			<td valign="top">
+			<td valign="top" style="position: relative;">
 				<input class="widefat" type="text" required name="hdQue-post-class4" id="hdQue-post-class4"
 				       value="<?php echo esc_attr(get_post_meta($object->ID, 'hdQue_post_class4', true)); ?>"
 				       size="30"/>

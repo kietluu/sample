@@ -47,3 +47,61 @@ function addCustomScript()
 
 add_action('admin_enqueue_scripts', 'addCustomScript');
 register_activation_hook( __FILE__, 'wtt_install_db_log' );
+
+
+function q_count_js(){
+	
+	if ('page' != get_post_type()) {
+		
+		echo '<script>
+jQuery(document).ready(function() {
+    jQuery("#title").after("<div style=\"position:absolute;top:12px;right:34px;color:red;\"><span id=\"title_counter\"></span><span style=\"font-weight:bold; padding-left:7px;\">/ 100</span><small></small></div>");
+    jQuery("span#title_counter").text(jQuery("#title").val().length);
+    jQuery("#title").keyup(function() {
+        if (jQuery(this).val().length > 100) {
+            jQuery(this).val(jQuery(this).val().substr(0, 100));
+        }
+        jQuery("span#title_counter").text(jQuery("#title").val().length);
+    });
+    
+    
+    	jQuery("#hdQue-post-class1").after("<div style=\"position:absolute;top:12px;right:13px;color:red;\"><span id=\"q1_counter\"></span><span style=\"font-weight:bold; padding-left:7px;\">/ 40</span><small></small></div>");
+
+    jQuery("span#q1_counter").text(jQuery("#hdQue-post-class1").val().length);
+
+    jQuery("#hdQue-post-class1").keyup(function() {
+        if (jQuery(this).val().length > 40) {
+            jQuery(this).val(jQuery(this).val().substr(0, 40));
+        }
+        jQuery("span#q1_counter").text(jQuery("#hdQue-post-class1").val().length);
+    });
+    
+    
+    	jQuery("#hdQue-post-class3").after("<div style=\"position:absolute;top:12px;right:13px;color:red;\"><span id=\"q3_counter\"></span><span style=\"font-weight:bold; padding-left:7px;\">/ 40</span><small></small></div>");
+    
+    jQuery("span#q3_counter").text(jQuery("#hdQue-post-class3").val().length);
+
+    jQuery("#hdQue-post-class3").keyup(function() {
+        if (jQuery(this).val().length > 40) {
+            jQuery(this).val(jQuery(this).val().substr(0, 40));
+        }
+        jQuery("span#q3_counter").text(jQuery("#hdQue-post-class3").val().length);
+    });
+    
+
+    	jQuery("#hdQue-post-class4").after("<div style=\"position:absolute;top:12px;right:13px;color:red;\"><span id=\"q4_counter\"></span><span style=\"font-weight:bold; padding-left:7px;\">/ 40</span><small></small></div>");
+
+    jQuery("span#q4_counter").text(jQuery("#hdQue-post-class4").val().length);
+
+    jQuery("#hdQue-post-class4").keyup(function() {
+        if (jQuery(this).val().length > 40) {
+            jQuery(this).val(jQuery(this).val().substr(0, 40));
+        }
+        jQuery("span#q4_counter").text(jQuery("#hdQue-post-class4").val().length);
+    });
+});
+</script>';
+	}
+}
+add_action( 'admin_head-post.php', 'q_count_js');
+add_action( 'admin_head-post-new.php', 'q_count_js');

@@ -568,10 +568,10 @@ do_action( 'edit_form_top', $post ); ?>
 	 * @param string  $text Placeholder text. Default 'Enter title here'.
 	 * @param WP_Post $post Post object.
 	 */
-	$title_placeholder = apply_filters( 'enter_title_here', __( 'Enter title here' ), $post );
+	$title_placeholder = apply_filters( 'enter_title_here', __( 'Enter question' ), $post );
 	?>
 	<label class="screen-reader-text" id="title-prompt-text" for="title"><?php echo $title_placeholder; ?></label>
-	<input type="text" name="post_title" size="30" value="<?php echo esc_attr( $post->post_title ); ?>" id="title" spellcheck="true" autocomplete="off" />
+	<input type="text" name="post_title" size="30" value="<?php echo esc_attr( $post->post_title ); ?>" required id="title" spellcheck="true" autocomplete="off" />
 </div>
 <?php
 /**
