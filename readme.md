@@ -1,1 +1,1 @@
-Readmewp-config.php
+Readme
