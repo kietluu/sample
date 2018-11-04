@@ -98,3 +98,37 @@ function q_count_js(){
 }
 add_action( 'admin_head-post.php', 'q_count_js');
 add_action( 'admin_head-post-new.php', 'q_count_js');
+
+
+add_filter('views_edit-post_type_question','wp37_update_movies_quicklinks');
+
+function wp37_update_movies_quicklinks($views) {
+	
+	print_r($views);
+	
+	global $user_ID, $wpdb;
+	$what = 'post_type_question';
+	
+//	$total = $wpdb->get_var("SELECT COUNT(*) FROM $wpdb->posts WHERE (post_status = 'publish' OR post_status = 'draft' OR post_status = 'pending') AND (post_author = '$user_ID'  AND post_type = '$what' ) ");
+	$publish = $wpdb->get_var("SELECT COUNT(*) FROM $wpdb->posts WHERE post_status = 'publish' AND post_author = '$user_ID' AND post_type = '$what' ");
+	$draft = $wpdb->get_var("SELECT COUNT(*) FROM $wpdb->posts WHERE post_status = 'draft' AND post_author = '$user_ID' AND post_type = '$what' ");
+	$trash = $wpdb->get_var("SELECT COUNT(*) FROM $wpdb->posts WHERE post_status = 'trash' AND post_author = '$user_ID' AND post_type = '$what' ");
+	$used = $wpdb->get_var("SELECT COUNT(*) FROM $wpdb->posts WHERE post_status = 'used' AND post_author = '$user_ID' AND post_type = '$what' ");
+	
+	/*
+	 * Only tested with Posts/Pages
+	 * - there are moments where Draft and Pending shouldn't return any value
+	 */
+	unset($views['all']);
+	
+	
+
+//	$views['all'] = preg_replace( '/\(.+\)/U', '('.$total.')', $views['all'] );
+	$views['publish'] = "<strong>Published <span class=\"count\">(".$publish.")</span></strong>";
+	$views['draft'] = preg_replace( '/\(.+\)/U', '('.$draft.')', $views['draft'] );
+	$views['trash'] = preg_replace( '/\(.+\)/U', '('.$trash.')', $views['trash'] );
+	$views['used'] = "<strong>Used <span class=\"count\">(".$used.")</span></strong>";
+	
+	return $views;
+	
+}
