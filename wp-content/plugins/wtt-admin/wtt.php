@@ -104,8 +104,6 @@ add_filter('views_edit-post_type_question','wp37_update_movies_quicklinks');
 
 function wp37_update_movies_quicklinks($views) {
 	
-	print_r($views);
-	
 	global $user_ID, $wpdb;
 	$what = 'post_type_question';
 	

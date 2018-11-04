@@ -204,6 +204,9 @@ function my_post_submitbox_misc_actions()
 
 function restricts()
 {
+	if (isset($_GET['action']) && in_array($_GET['action'],['delete','untrash'])){
+		return;
+	}
 	
 	if (isset($_GET['post']))
 		$post_id = $post_ID = (int)$_GET['post'];
