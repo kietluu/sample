@@ -709,7 +709,10 @@ if ( count( $profileuser->caps ) > count( $profileuser->roles )
 <input type="hidden" name="action" value="update" />
 <input type="hidden" name="user_id" id="user_id" value="<?php echo esc_attr($user_id); ?>" />
 
-<?php submit_button( IS_PROFILE_PAGE ? __('Update Profile') : __('Update User') ); ?>
+
+<?php
+if(is_super_admin() || isAdmin()) submit_button( IS_PROFILE_PAGE ? __('Update Profile') : __('Update User') );
+?>
 
 </form>
 </div>
