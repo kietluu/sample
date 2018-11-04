@@ -401,7 +401,7 @@ if ( is_multisite() && is_network_admin() && ! IS_PROFILE_PAGE && current_user_c
 <?php endif; ?>
 </td></tr>
 <?php } ?>
-
+<?php  if(is_super_admin() || isAdmin()): ?>
 <tr class="user-first-name-wrap">
 	<th><label for="first_name"><?php _e('First Name') ?></label></th>
 	<td><input type="text" name="first_name" id="first_name" value="<?php echo esc_attr($profileuser->first_name) ?>" class="regular-text" /></td>
@@ -643,6 +643,7 @@ if ( IS_PROFILE_PAGE && count( $sessions->get_all() ) === 1 ) : ?>
 <?php endif; ?>
 
 </table>
+<?php  endif; ?>
 
 <?php
 	if ( IS_PROFILE_PAGE ) {
