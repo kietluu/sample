@@ -28,7 +28,7 @@ function filter_list_post($query)
 	
 	if (is_admin()) {
 		if (isWriter()) {
-			$query->set('post_status', array('auto-draft', 'draft'));
+			$query->set('post_status', array('auto-draft', 'draft', 'trash'));
 			$query->set('author', $user_ID);
 			return;
 		}

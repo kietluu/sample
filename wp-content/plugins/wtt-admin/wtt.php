@@ -115,15 +115,8 @@ function wp37_update_movies_quicklinks($views) {
 	$trash = $wpdb->get_var("SELECT COUNT(*) FROM $wpdb->posts WHERE post_status = 'trash' AND post_author = '$user_ID' AND post_type = '$what' ");
 	$used = $wpdb->get_var("SELECT COUNT(*) FROM $wpdb->posts WHERE post_status = 'used' AND post_author = '$user_ID' AND post_type = '$what' ");
 	
-	/*
-	 * Only tested with Posts/Pages
-	 * - there are moments where Draft and Pending shouldn't return any value
-	 */
 	unset($views['all']);
 	
-	
-
-//	$views['all'] = preg_replace( '/\(.+\)/U', '('.$total.')', $views['all'] );
 	$views['publish'] = "<strong>Published <span class=\"count\">(".$publish.")</span></strong>";
 	$views['draft'] = preg_replace( '/\(.+\)/U', '('.$draft.')', $views['draft'] );
 	$views['trash'] = preg_replace( '/\(.+\)/U', '('.$trash.')', $views['trash'] );

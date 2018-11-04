@@ -46,19 +46,16 @@ function question_level_callback($post, $metabox)
 
 function save_metabox_question_level($post_id, $post, $update)
 {
-	// Đây chính là input hidden Security mà ta đã tạo ở hàm show_metabox_contain
 	if (!isset($_POST["meta-box-question-level"]) || !wp_verify_nonce($_POST["meta-box-question-level-nonce"], basename(__FILE__)))
 	{
 		return $post_id;
 	}
 	
-	// Kiểm tra quyền
 	if(!current_user_can("edit_post", $post_id))
 	{
 		return $post_id;
 	}
 	
-	// Nếu auto save thì không làm gì cả
 	if(defined("DOING_AUTOSAVE") && DOING_AUTOSAVE)
 	{
 		return $post_id;
@@ -69,20 +66,12 @@ function save_metabox_question_level($post_id, $post, $update)
 	}
 	
 	
-	// Lấy thông tin từ client
 	$metabox_question_level = (isset($_POST["meta-box-question-level"])) ? $_POST["meta-box-question-level"] : '';
 	
-	// Cập nhật thông tin, hàm này sẽ tạo mới nếu như trong db chưa tồn tại
 	update_post_meta($post_id, "meta-box-question-level", $metabox_question_level);
 }
 
 add_action('save_post', 'save_metabox_question_level', 10, 3);
-
-
-
-
-
-
 
 /**
  * Adds "Import" button on module list page
@@ -107,14 +96,7 @@ function addCustomImportButton()
 	<?php
 }
 
-
-
-
-
-
 add_action('admin_head-edit.php','addCustomImportButton');
-
-
 add_filter('views_edit-post','my_filter');
 add_filter('views_edit-page','my_filter');
 
