@@ -28,6 +28,7 @@ function register_questionnaire_admin_callback()
 	}
 	?>
 	<div class="wrap">
+		<?php if(is_super_admin()) { ?>
 		<div class="hdContent">
 			<?php
 			require('template/api-setting.php');
@@ -38,6 +39,7 @@ function register_questionnaire_admin_callback()
 			require('template/question-setting.php');
 			?>
 		</div>
+		<?php } ?>
 		<div class="hdContent">
 			<?php
 			require('template/rule-setting.php');
