@@ -1,0 +1,786 @@
+----------09-04-2018 @ 04:02:14----------
+Array
+(
+    [callback] => query_free_addons
+)
+Array
+(
+    [doing_wp_cron] => 1536033733.7717370986938476562500
+)
+
+
+=> file      :/data/sources/question_bank/wp-content/plugins/learnpress/inc/abstracts/abstract-background-process.php
+=> line      :115
+=> function  :add
+=> class     :LP_Debug
+-----------------------------------------
+
+
+----------09-04-2018 @ 02:53:28----------
+Array
+(
+    [callback] => query_free_addons
+)
+Array
+(
+    [doing_wp_cron] => 1536029607.8832280635833740234375
+)
+
+
+=> file      :/data/sources/question_bank/wp-content/plugins/learnpress/inc/abstracts/abstract-background-process.php
+=> line      :115
+=> function  :add
+=> class     :LP_Debug
+-----------------------------------------
+
+
+----------09-03-2018 @ 22:30:39----------
+Array
+(
+    [callback] => query_free_addons
+)
+Array
+(
+    [doing_wp_cron] => 1536013833.6204619407653808593750
+)
+
+
+=> file      :/data/sources/question_bank/wp-content/plugins/learnpress/inc/abstracts/abstract-background-process.php
+=> line      :115
+=> function  :add
+=> class     :LP_Debug
+-----------------------------------------
+
+
+----------09-02-2018 @ 07:41:33----------
+Array
+(
+    [callback] => query_free_addons
+)
+Array
+(
+    [doing_wp_cron] => 1535874092.3771700859069824218750
+)
+
+
+=> file      :/data/sources/question_bank/wp-content/plugins/learnpress/inc/abstracts/abstract-background-process.php
+=> line      :115
+=> function  :add
+=> class     :LP_Debug
+-----------------------------------------
+
+
+----------08-31-2018 @ 07:00:17----------
+Array
+(
+    [callback] => query_free_addons
+)
+Array
+(
+    [doing_wp_cron] => 1535698816.7429869174957275390625
+)
+
+
+=> file      :/data/sources/question_bank/wp-content/plugins/learnpress/inc/abstracts/abstract-background-process.php
+=> line      :115
+=> function  :add
+=> class     :LP_Debug
+-----------------------------------------
+
+
+----------08-31-2018 @ 05:53:43----------
+Array
+(
+    [callback] => query_free_addons
+)
+Array
+(
+    [doing_wp_cron] => 1535694822.2472538948059082031250
+)
+
+
+=> file      :/data/sources/question_bank/wp-content/plugins/learnpress/inc/abstracts/abstract-background-process.php
+=> line      :115
+=> function  :add
+=> class     :LP_Debug
+-----------------------------------------
+
+
+----------08-30-2018 @ 03:06:32----------
+Array
+(
+    [callback] => query_free_addons
+)
+Array
+(
+    [doing_wp_cron] => 1535598380.1468338966369628906250
+)
+
+
+=> file      :/data/sources/question_bank/wp-content/plugins/learnpress/inc/abstracts/abstract-background-process.php
+=> line      :115
+=> function  :add
+=> class     :LP_Debug
+-----------------------------------------
+
+
+----------08-30-2018 @ 03:06:27----------
+Array
+(
+    [callback] => query_related_themes
+)
+Array
+(
+    [doing_wp_cron] => 1535598380.1468338966369628906250
+)
+
+
+=> file      :/data/sources/question_bank/wp-content/plugins/learnpress/inc/abstracts/abstract-background-process.php
+=> line      :115
+=> function  :add
+=> class     :LP_Debug
+-----------------------------------------
+
+
+----------08-29-2018 @ 01:34:12----------
+Array
+(
+    [callback] => query_related_themes
+)
+Array
+(
+    [doing_wp_cron] => 1535506452.1498129367828369140625
+)
+
+
+=> file      :/data/sources/question_bank/wp-content/plugins/learnpress/inc/abstracts/abstract-background-process.php
+=> line      :115
+=> function  :add
+=> class     :LP_Debug
+-----------------------------------------
+
+
+----------08-27-2018 @ 09:15:54----------
+Array
+(
+    [callback] => query_related_themes
+)
+Array
+(
+    [doing_wp_cron] => 1535361354.0994060039520263671875
+)
+
+
+=> file      :/data/sources/question_bank/wp-content/plugins/learnpress/inc/abstracts/abstract-background-process.php
+=> line      :115
+=> function  :add
+=> class     :LP_Debug
+-----------------------------------------
+
+
+----------08-27-2018 @ 08:15:32----------
+Array
+(
+    [callback] => query_related_themes
+)
+Array
+(
+    [doing_wp_cron] => 1535357731.2938439846038818359375
+)
+
+
+=> file      :/data/sources/question_bank/wp-content/plugins/learnpress/inc/abstracts/abstract-background-process.php
+=> line      :115
+=> function  :add
+=> class     :LP_Debug
+-----------------------------------------
+
+
+----------08-27-2018 @ 05:56:11----------
+Array
+(
+    [callback] => query_related_themes
+)
+Array
+(
+    [doing_wp_cron] => 1535349371.2218000888824462890625
+)
+
+
+=> file      :/data/sources/question_bank/wp-content/plugins/learnpress/inc/abstracts/abstract-background-process.php
+=> line      :115
+=> function  :add
+=> class     :LP_Debug
+-----------------------------------------
+
+
+----------08-27-2018 @ 04:48:41----------
+Array
+(
+    [callback] => query_related_themes
+)
+Array
+(
+    [doing_wp_cron] => 1535345320.5721459388732910156250
+)
+
+
+=> file      :/data/sources/question_bank/wp-content/plugins/learnpress/inc/abstracts/abstract-background-process.php
+=> line      :115
+=> function  :add
+=> class     :LP_Debug
+-----------------------------------------
+
+
+----------08-27-2018 @ 03:40:21----------
+Array
+(
+    [callback] => query_related_themes
+)
+Array
+(
+    [doing_wp_cron] => 1535341221.0683140754699707031250
+)
+
+
+=> file      :/data/sources/question_bank/wp-content/plugins/learnpress/inc/abstracts/abstract-background-process.php
+=> line      :115
+=> function  :add
+=> class     :LP_Debug
+-----------------------------------------
+
+
+----------08-27-2018 @ 02:06:45----------
+Array
+(
+    [callback] => query_related_themes
+)
+Array
+(
+    [doing_wp_cron] => 1535335604.6136939525604248046875
+)
+
+
+=> file      :/data/sources/question_bank/wp-content/plugins/learnpress/inc/abstracts/abstract-background-process.php
+=> line      :115
+=> function  :add
+=> class     :LP_Debug
+-----------------------------------------
+
+
+----------08-24-2018 @ 11:06:40----------
+Array
+(
+    [callback] => query_related_themes
+)
+Array
+(
+    [doing_wp_cron] => 1535108799.5004470348358154296875
+)
+
+
+=> file      :/data/sources/question_bank/wp-content/plugins/learnpress/inc/abstracts/abstract-background-process.php
+=> line      :115
+=> function  :add
+=> class     :LP_Debug
+-----------------------------------------
+
+
+----------08-24-2018 @ 09:47:26----------
+Array
+(
+    [callback] => query_related_themes
+)
+Array
+(
+    [doing_wp_cron] => 1535104045.4178180694580078125000
+)
+
+
+=> file      :/data/sources/question_bank/wp-content/plugins/learnpress/inc/abstracts/abstract-background-process.php
+=> line      :115
+=> function  :add
+=> class     :LP_Debug
+-----------------------------------------
+
+
+----------08-24-2018 @ 08:47:12----------
+Array
+(
+    [callback] => query_related_themes
+)
+Array
+(
+    [doing_wp_cron] => 1535100431.7409191131591796875000
+)
+
+
+=> file      :/data/sources/question_bank/wp-content/plugins/learnpress/inc/abstracts/abstract-background-process.php
+=> line      :115
+=> function  :add
+=> class     :LP_Debug
+-----------------------------------------
+
+
+----------08-24-2018 @ 07:45:17----------
+Array
+(
+    [callback] => query_related_themes
+)
+Array
+(
+    [doing_wp_cron] => 1535096716.8188450336456298828125
+)
+
+
+=> file      :/data/sources/question_bank/wp-content/plugins/learnpress/inc/abstracts/abstract-background-process.php
+=> line      :115
+=> function  :add
+=> class     :LP_Debug
+-----------------------------------------
+
+
+----------08-23-2018 @ 06:25:19----------
+Array
+(
+    [callback] => query_related_themes
+)
+Array
+(
+    [action] => lp_query_items
+    [nonce] => 1d55f381d5
+    [0] => Array
+        (
+            [callback] => query_related_themes
+        )
+
+)
+
+
+=> file      :/data/sources/question_bank/wp-content/plugins/learnpress/inc/abstracts/abstract-background-process.php
+=> line      :115
+=> function  :add
+=> class     :LP_Debug
+-----------------------------------------
+
+
+----------08-22-2018 @ 06:26:34----------
+Array
+(
+    [callback] => query_related_themes
+)
+Array
+(
+    [doing_wp_cron] => 1534919194.1902270317077636718750
+)
+
+
+=> file      :/data/sources/question_bank/wp-content/plugins/learnpress/inc/abstracts/abstract-background-process.php
+=> line      :115
+=> function  :add
+=> class     :LP_Debug
+-----------------------------------------
+
+
+----------08-22-2018 @ 04:10:45----------
+Array
+(
+    [callback] => query_related_themes
+)
+Array
+(
+    [doing_wp_cron] => 1534911044.0214118957519531250000
+)
+
+
+=> file      :/data/sources/question_bank/wp-content/plugins/learnpress/inc/abstracts/abstract-background-process.php
+=> line      :115
+=> function  :add
+=> class     :LP_Debug
+-----------------------------------------
+
+
+----------08-21-2018 @ 08:09:33----------
+Array
+(
+    [callback] => query_related_themes
+)
+Array
+(
+    [action] => lp_query_items
+    [nonce] => 7af6f636b9
+    [0] => Array
+        (
+            [callback] => query_related_themes
+        )
+
+)
+
+
+=> file      :/data/sources/question_bank/wp-content/plugins/learnpress/inc/abstracts/abstract-background-process.php
+=> line      :115
+=> function  :add
+=> class     :LP_Debug
+-----------------------------------------
+
+
+----------08-17-2018 @ 14:11:57----------
+Array
+(
+    [callback] => query_related_themes
+)
+Array
+(
+    [doing_wp_cron] => 1534515116.5688989162445068359375
+)
+
+
+=> file      :/data/sources/question_bank/wp-content/plugins/learnpress/inc/abstracts/abstract-background-process.php
+=> line      :115
+=> function  :add
+=> class     :LP_Debug
+-----------------------------------------
+
+
+----------08-17-2018 @ 08:28:24----------
+Array
+(
+    [callback] => query_related_themes
+)
+Array
+(
+    [doing_wp_cron] => 1534494503.4458279609680175781250
+)
+
+
+=> file      :/data/sources/question_bank/wp-content/plugins/learnpress/inc/abstracts/abstract-background-process.php
+=> line      :115
+=> function  :add
+=> class     :LP_Debug
+-----------------------------------------
+
+
+----------08-17-2018 @ 06:17:36----------
+Array
+(
+    [callback] => query_related_themes
+)
+Array
+(
+    [doing_wp_cron] => 1534486656.1846799850463867187500
+)
+
+
+=> file      :/data/sources/question_bank/wp-content/plugins/learnpress/inc/abstracts/abstract-background-process.php
+=> line      :115
+=> function  :add
+=> class     :LP_Debug
+-----------------------------------------
+
+
+----------08-17-2018 @ 04:26:44----------
+Array
+(
+    [callback] => query_related_themes
+)
+Array
+(
+    [doing_wp_cron] => 1534480003.2949349880218505859375
+)
+
+
+=> file      :/data/sources/question_bank/wp-content/plugins/learnpress/inc/abstracts/abstract-background-process.php
+=> line      :115
+=> function  :add
+=> class     :LP_Debug
+-----------------------------------------
+
+
+----------08-17-2018 @ 02:52:17----------
+Array
+(
+    [callback] => query_related_themes
+)
+Array
+(
+    [doing_wp_cron] => 1534474336.3763709068298339843750
+)
+
+
+=> file      :/data/sources/question_bank/wp-content/plugins/learnpress/inc/abstracts/abstract-background-process.php
+=> line      :115
+=> function  :add
+=> class     :LP_Debug
+-----------------------------------------
+
+
+----------08-17-2018 @ 01:44:55----------
+Array
+(
+    [callback] => query_related_themes
+)
+Array
+(
+    [doing_wp_cron] => 1534470294.4666669368743896484375
+)
+
+
+=> file      :/data/sources/question_bank/wp-content/plugins/learnpress/inc/abstracts/abstract-background-process.php
+=> line      :115
+=> function  :add
+=> class     :LP_Debug
+-----------------------------------------
+
+
+----------08-16-2018 @ 10:04:01----------
+Array
+(
+    [callback] => query_related_themes
+)
+Array
+(
+    [doing_wp_cron] => 1534413840.8814129829406738281250
+)
+
+
+=> file      :/data/sources/question_bank/wp-content/plugins/learnpress/inc/abstracts/abstract-background-process.php
+=> line      :115
+=> function  :add
+=> class     :LP_Debug
+-----------------------------------------
+
+
+----------08-16-2018 @ 09:01:15----------
+Array
+(
+    [callback] => query_related_themes
+)
+Array
+(
+    [doing_wp_cron] => 1534410075.1884739398956298828125
+)
+
+
+=> file      :/data/sources/question_bank/wp-content/plugins/learnpress/inc/abstracts/abstract-background-process.php
+=> line      :115
+=> function  :add
+=> class     :LP_Debug
+-----------------------------------------
+
+
+----------08-16-2018 @ 08:00:40----------
+Array
+(
+    [callback] => query_related_themes
+)
+Array
+(
+    [doing_wp_cron] => 1534406440.2167630195617675781250
+)
+
+
+=> file      :/data/sources/question_bank/wp-content/plugins/learnpress/inc/abstracts/abstract-background-process.php
+=> line      :115
+=> function  :add
+=> class     :LP_Debug
+-----------------------------------------
+
+
+----------08-16-2018 @ 06:55:43----------
+Array
+(
+    [callback] => query_related_themes
+)
+Array
+(
+    [doing_wp_cron] => 1534402542.6753540039062500000000
+)
+
+
+=> file      :/data/sources/question_bank/wp-content/plugins/learnpress/inc/abstracts/abstract-background-process.php
+=> line      :115
+=> function  :add
+=> class     :LP_Debug
+-----------------------------------------
+
+
+----------08-16-2018 @ 05:54:37----------
+Array
+(
+    [callback] => query_related_themes
+)
+Array
+(
+    [doing_wp_cron] => 1534398876.7820439338684082031250
+)
+
+
+=> file      :/data/sources/question_bank/wp-content/plugins/learnpress/inc/abstracts/abstract-background-process.php
+=> line      :115
+=> function  :add
+=> class     :LP_Debug
+-----------------------------------------
+
+
+----------08-16-2018 @ 03:04:37----------
+Array
+(
+    [callback] => query_related_themes
+)
+Array
+(
+    [doing_wp_cron] => 1534388676.9743530750274658203125
+)
+
+
+=> file      :/data/sources/question_bank/wp-content/plugins/learnpress/inc/abstracts/abstract-background-process.php
+=> line      :115
+=> function  :add
+=> class     :LP_Debug
+-----------------------------------------
+
+
+----------08-16-2018 @ 02:47:57----------
+Array
+(
+    [check_tables] => yes
+)
+Array
+(
+    [action] => lp_lp_installer
+    [nonce] => c2672fe3fa
+    [0] => Array
+        (
+            [check_tables] => yes
+        )
+
+)
+
+
+=> file      :/data/sources/question_bank/wp-content/plugins/learnpress/inc/abstracts/abstract-background-process.php
+=> line      :115
+=> function  :add
+=> class     :LP_Debug
+-----------------------------------------
+
+
+----------08-16-2018 @ 02:47:57----------
+Array
+(
+    [check_tables] => yes
+)
+Array
+(
+    [action] => lp_lp_installer
+    [nonce] => c2672fe3fa
+    [0] => Array
+        (
+            [check_tables] => yes
+        )
+
+)
+
+
+=> file      :/data/sources/question_bank/wp-content/plugins/learnpress/inc/abstracts/abstract-background-process.php
+=> line      :115
+=> function  :add
+=> class     :LP_Debug
+-----------------------------------------
+
+
+----------08-16-2018 @ 02:47:57----------
+Array
+(
+    [check_tables] => yes
+)
+Array
+(
+    [action] => lp_lp_installer
+    [nonce] => c2672fe3fa
+    [0] => Array
+        (
+            [check_tables] => yes
+        )
+
+)
+
+
+=> file      :/data/sources/question_bank/wp-content/plugins/learnpress/inc/abstracts/abstract-background-process.php
+=> line      :115
+=> function  :add
+=> class     :LP_Debug
+-----------------------------------------
+
+
+----------08-16-2018 @ 02:47:57----------
+Array
+(
+    [check_tables] => yes
+)
+Array
+(
+    [action] => lp_lp_installer
+    [nonce] => c2672fe3fa
+    [0] => Array
+        (
+            [check_tables] => yes
+        )
+
+)
+
+
+=> file      :/data/sources/question_bank/wp-content/plugins/learnpress/inc/abstracts/abstract-background-process.php
+=> line      :115
+=> function  :add
+=> class     :LP_Debug
+-----------------------------------------
+
+
+----------08-16-2018 @ 02:47:57----------
+Array
+(
+    [check_tables] => yes
+)
+Array
+(
+    [action] => lp_lp_installer
+    [nonce] => c2672fe3fa
+    [0] => Array
+        (
+            [check_tables] => yes
+        )
+
+)
+
+
+=> file      :/data/sources/question_bank/wp-content/plugins/learnpress/inc/abstracts/abstract-background-process.php
+=> line      :115
+=> function  :add
+=> class     :LP_Debug
+-----------------------------------------
+
+
+----------08-16-2018 @ 02:47:57----------
+Array
+(
+    [check_tables] => yes
+)
+Array
+(
+    [action] => lp_lp_installer
+    [nonce] => c2672fe3fa
+    [0] => Array
+        (
+            [check_tables] => yes
+        )
+
+)
+
+
+=> file      :/data/sources/question_bank/wp-content/plugins/learnpress/inc/abstracts/abstract-background-process.php
+=> line      :115
+=> function  :add
+=> class     :LP_Debug
+-----------------------------------------
+
+
