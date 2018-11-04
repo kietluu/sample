@@ -221,6 +221,7 @@ if ( ! IS_PROFILE_PAGE ) {
 
 <hr class="wp-header-end">
 
+<?php if(is_super_admin() || isAdmin()): ?>
 <form id="your-profile" action="<?php echo esc_url( self_admin_url( IS_PROFILE_PAGE ? 'profile.php' : 'user-edit.php' ) ); ?>" method="post" novalidate="novalidate"<?php
 	/**
 	 * Fires inside the your-profile form tag on the user editing screen.
@@ -229,6 +230,7 @@ if ( ! IS_PROFILE_PAGE ) {
 	 */
 	do_action( 'user_edit_form_tag' );
 ?>>
+	<?php endif; ?>
 <?php wp_nonce_field('update-user_' . $user_id) ?>
 <?php if ( $wp_http_referer ) : ?>
 	<input type="hidden" name="wp_http_referer" value="<?php echo esc_url($wp_http_referer); ?>" />
@@ -713,8 +715,9 @@ if ( count( $profileuser->caps ) > count( $profileuser->roles )
 <?php
 if(is_super_admin() || isAdmin()) submit_button( IS_PROFILE_PAGE ? __('Update Profile') : __('Update User') );
 ?>
-
+<?php if(is_super_admin() || isAdmin()): ?>
 </form>
+<?php endif; ?>
 </div>
 <?php
 break;
